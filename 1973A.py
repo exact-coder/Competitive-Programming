@@ -19,6 +19,11 @@ for i in range(num_test):
         first = maxPQ
     
 
-
-
-# https://codeforces.com/problemset/problem/1951/A
+# https://codeforces.com/problemset/problem/1971/C
+# https://codeforces.com/problemset/problem/1945/B
+# https://codeforces.com/problemset/problem/1941/C
+# https://codeforces.com/problemset/problem/1927/B
+# https://codeforces.com/problemset/problem/1918/B
+# https://codeforces.com/problemset/problem/1915/D
+# https://codeforces.com/problemset/problem/1904/A
+# https://codeforces.com/problemset/problem/1900/B
