@@ -24,5 +24,5 @@ for i in range(num_test):
 
 
 
-# https://codeforces.com/problemset/problem/1904/A
+
 # https://codeforces.com/problemset/problem/1900/B
