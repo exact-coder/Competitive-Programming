@@ -19,7 +19,34 @@ for i in range(num_test):
         first = maxPQ
         
     
-
-
-
+# https://codeforces.com/problemset/problem/1986/B
+# https://codeforces.com/problemset/problem/1985/C
+# https://codeforces.com/problemset/problem/1979/B
+# https://codeforces.com/problemset/problem/1975/B
+# https://codeforces.com/problemset/problem/1970/A1
+# https://codeforces.com/problemset/problem/1969/B
+# https://codeforces.com/problemset/problem/1968/C
+# https://codeforces.com/problemset/problem/1955/B
+# https://codeforces.com/problemset/problem/1811/B
+# https://codeforces.com/problemset/problem/1829/D
+# https://codeforces.com/problemset/problem/1941/B
+# https://codeforces.com/problemset/problem/1931/C
+# https://codeforces.com/problemset/problem/1930/B
+# https://codeforces.com/problemset/problem/1913/B
+# https://codeforces.com/problemset/problem/1906/A
+# https://codeforces.com/problemset/problem/1894/B
+# https://codeforces.com/problemset/problem/1883/C
+# https://codeforces.com/problemset/problem/1861/B
+# https://codeforces.com/problemset/problem/1858/C
+# https://codeforces.com/problemset/problem/1859/B
+# https://codeforces.com/problemset/problem/1851/C
+# https://codeforces.com/problemset/problem/1849/B
+# https://codeforces.com/problemset/problem/1844/B
+# https://codeforces.com/problemset/problem/1847/B
+# https://codeforces.com/problemset/problem/1841/B
+# https://codeforces.com/problemset/problem/1840/C
+# https://codeforces.com/problemset/problem/1838/B
+# https://codeforces.com/problemset/problem/1834/B
+# https://codeforces.com/problemset/problem/1831/B
+# https://codeforces.com/problemset/problem/1825/B
 
