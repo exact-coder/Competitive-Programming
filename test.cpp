@@ -6,58 +6,46 @@ int main(){
     int tt; cin >> tt;
     while (tt--)
     {
-        int n,m; cin >> n >> m;
+        int x,y,i;
+        cin >> x >> y;
+        int max1 = max(x,y);
+        int min1 = min(x,y);
+        vector<int> v ,v1;
 
-        vector<vector<int>> matrix(n, vector<int>(m));
-
-        for (int i = 0; i < n; i++){
-            for (int j = 0; j < m; j++) cin >> matrix[i][j];
-        }
-
-        bool stabilized = true;
-        while (stabilized)
+        while (x)
         {
-            stabilized = false;
-            int up,down,left,right;
-
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-
-                    if(i>0) up = matrix[i-1][j];
-                    else up=0;
-
-                    if(j>0) left = matrix[i][j-1];
-                    else left=0;
-
-                    if(i<n-1) down = matrix[i+1][j];
-                    else down=0;
-
-                    if(j<m-1) right = matrix[i][j+1];
-                    else right=0;
-
-                    int max_neighbor = max(max(up,down), max(left,right));
-
-                    if(matrix[i][j] > max_neighbor){
-                        matrix[i][j] = max_neighbor;
-                        stabilized=true;
-                    }
-
-                }
-                
-            }
-            
+            int ok = x%2;
+            v.push_back(ok);
+            x=x/2;
         }
-        
-        for (int i = 0; i < n; i++)
+        while (v.size()<32)
         {
-            for (int j = 0; j < m; j++)
-            {
-                cout << matrix[i][j] << " ";
-                cout << endl;
-            }
-            
+            v.push_back(0);
         }
+        while (y)
+        {
+            int ok = y%2;
+            v1.push_back(ok);
+            y=y/2;
+        }
+        while (v1.size()<32)
+        {
+            v1.push_back(0);
+        }
+        int ans=0;
+
+        for (i = 0; i < 32; i++)
+        {
+            if(v[i]==v1[i]){
+                ans++;
+            }else{
+                break;
+            }
+        }
+        int ok = (1LL<<ans);
+        cout<<ok<<endl;
         
     }
+    return 0;
     
 }
