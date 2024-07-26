@@ -6,46 +6,16 @@ int main(){
     int tt; cin >> tt;
     while (tt--)
     {
-        int x,y,i;
-        cin >> x >> y;
-        int max1 = max(x,y);
-        int min1 = min(x,y);
-        vector<int> v ,v1;
+        int n; cin >> n;
+        vector<int>vec(n);
+        for(int i = 1; i<n;i++) cin >> vec[i];
 
-        while (x)
-        {
-            int ok = x%2;
-            v.push_back(ok);
-            x=x/2;
-        }
-        while (v.size()<32)
-        {
-            v.push_back(0);
-        }
-        while (y)
-        {
-            int ok = y%2;
-            v1.push_back(ok);
-            y=y/2;
-        }
-        while (v1.size()<32)
-        {
-            v1.push_back(0);
-        }
-        int ans=0;
-
-        for (i = 0; i < 32; i++)
-        {
-            if(v[i]==v1[i]){
-                ans++;
-            }else{
-                break;
-            }
-        }
-        int ok = (1LL<<ans);
-        cout<<ok<<endl;
+        vector<int>answer(n);
+        answer[n-1] = 1e9;
+        for(int i=n-2;i>=0;i--)
+            answer[i] = answer[i+1]-vec[i+1];
         
+        for(auto it:answer) cout << it << ' ';
+        cout << endl;
     }
-    return 0;
-    
 }

@@ -23,7 +23,7 @@ for i in range(num_test):
 
 
 
-# https://codeforces.com/problemset/problem/1968/C
+
 # https://codeforces.com/problemset/problem/1955/B
 # https://codeforces.com/problemset/problem/1811/B
 # https://codeforces.com/problemset/problem/1829/D
