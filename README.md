@@ -1,7 +1,7 @@
 # My-Problem-Solving-Skills
 
 
-##  Problem Solving
+##  Competitive Programming
 1. LeeCode
 2. CodeForces
 
