@@ -24,7 +24,6 @@ for i in range(num_test):
 
 
 
-# https://codeforces.com/problemset/problem/1883/C
 # https://codeforces.com/problemset/problem/1861/B
 # https://codeforces.com/problemset/problem/1858/C
 # https://codeforces.com/problemset/problem/1859/B

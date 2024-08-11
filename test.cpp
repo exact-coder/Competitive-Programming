@@ -6,16 +6,20 @@ int main(){
     int tt; cin >> tt;
     while (tt--)
     {
-        int n; cin >> n;
-        vector<int>vec(n);
-        for(int i = 1; i<n;i++) cin >> vec[i];
-
-        vector<int>answer(n);
-        answer[n-1] = 1e9;
-        for(int i=n-2;i>=0;i--)
-            answer[i] = answer[i+1]-vec[i+1];
-        
-        for(auto it:answer) cout << it << ' ';
-        cout << endl;
+        int n,k; cin >> n >> k;
+        int even =0, ans = k;
+        for(int i =0; i<n;i++){
+            int x; cin >> x;
+            if(x%2 == 0) even++;
+            if(x%k == 0) ans =0;
+            ans = min(ans,k-x%k);
+            
+        }
+        if(k==4){
+            if(even >= 2) ans =0;
+            else if(even == 1) ans = min(ans,1);
+            else ans = min(ans,2);
+        }
+        cout << ans << endl;
     }
 }
