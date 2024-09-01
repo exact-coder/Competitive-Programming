@@ -1,4 +1,12 @@
-# https://codeforces.com/problemset/problem/1973/A
+""" ******************************
+Username: JahidHasan90
+Problem: https://codeforces.com/problemset/problem/1973/A
+Give Time to Time , It can hill everything.
+*******************************"""
+
+
+
+
 import math
 
 num_test = int(input())
@@ -22,10 +30,6 @@ for i in range(num_test):
 
 
 
-
-
-# https://codeforces.com/problemset/problem/1858/C
-# https://codeforces.com/problemset/problem/1859/B
 # https://codeforces.com/problemset/problem/1851/C
 # https://codeforces.com/problemset/problem/1849/B
 # https://codeforces.com/problemset/problem/1844/B
@@ -36,4 +40,5 @@ for i in range(num_test):
 # https://codeforces.com/problemset/problem/1834/B
 # https://codeforces.com/problemset/problem/1831/B
 # https://codeforces.com/problemset/problem/1825/B
+
 
