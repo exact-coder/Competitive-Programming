@@ -20,18 +20,18 @@ def can_transform(grid_a: List[List[int]], grid_b: List[List[int]], rows: int, c
 
     return True
 
-if __name__ == "__main__":
-    test_cases = int(input())
 
-    while test_cases:
-        rows, cols = map(int, input().split())
+test_cases = int(input())
 
-        grid_a = [[int(input()) for _ in range(cols)] for _ in range(rows)]
-        grid_b = [[int(input()) for _ in range(cols)] for _ in range(rows)]
+while test_cases:
+    rows, cols = map(int, input().split())
 
-        if can_transform(grid_a, grid_b, rows, cols):
-            print("YES")
-        else:
-            print("NO")
+    grid_a = [[int(input()) for _ in range(cols)] for _ in range(rows)]
+    grid_b = [[int(input()) for _ in range(cols)] for _ in range(rows)]
 
-        test_cases -= 1
+    if can_transform(grid_a, grid_b, rows, cols):
+        print("YES")
+    else:
+        print("NO")
+
+    test_cases -= 1
