@@ -9,10 +9,10 @@ Give Time to Time , It can hill everything.
 
 import math
 
-num_test = int(input())
+test_case = int(input())
 
 
-for i in range(num_test):
+while test_case:
     p1,p2,p3 = map(int,input().split())
 
     maxPQ = []
@@ -26,10 +26,9 @@ for i in range(num_test):
     while(len(maxPQ)>1):
         first = maxPQ
         
-    
+    test_case-=1
 
 
-# https://codeforces.com/problemset/problem/1841/B
 # https://codeforces.com/problemset/problem/1840/C
 # https://codeforces.com/problemset/problem/1838/B
 # https://codeforces.com/problemset/problem/1834/B
