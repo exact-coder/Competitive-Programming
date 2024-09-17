@@ -29,7 +29,6 @@ while test_case:
     test_case-=1
 
 
-# https://codeforces.com/problemset/problem/1840/C
 # https://codeforces.com/problemset/problem/1838/B
 # https://codeforces.com/problemset/problem/1834/B
 # https://codeforces.com/problemset/problem/1831/B
