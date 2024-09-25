@@ -5,13 +5,13 @@ Give Time to Time , It can hill everything.
 *******************************"""
 
 
-test_case = int(input())
+tc = int(input())
 
 
-while test_case:
+while tc:
     
     L,R = map(int,input().split())
     
     
-    test_case-=1
+    tc-=1
 
