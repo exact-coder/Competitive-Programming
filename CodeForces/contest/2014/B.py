@@ -18,6 +18,6 @@ while test_case:
     output = 0
     
     for i in range(n):
-        if 
+        pass
 
     test_case-=1
