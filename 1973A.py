@@ -30,7 +30,21 @@ while test_case:
 
 
 # https://codeforces.com/problemset/problem/1834/B
-# https://codeforces.com/problemset/problem/1831/B
-# https://codeforces.com/problemset/problem/1825/B
+# https://codeforces.com/problemset/problem/2008/D
+# https://codeforces.com/problemset/problem/2004/C
+# https://codeforces.com/problemset/problem/1995/B1
+# https://codeforces.com/problemset/problem/1994/B
+# https://codeforces.com/problemset/problem/1993/B
+# https://codeforces.com/problemset/problem/1986/C
+# https://codeforces.com/problemset/problem/1984/B
+# https://codeforces.com/problemset/problem/1982/C
+# https://codeforces.com/problemset/problem/1979/C
+# https://codeforces.com/problemset/problem/1977/B
+# https://codeforces.com/problemset/problem/1976/B
+# https://codeforces.com/problemset/problem/1975/C
+# https://codeforces.com/problemset/problem/1958/A
+# https://codeforces.com/problemset/problem/1957/B
+# https://codeforces.com/problemset/problem/1954/C
+# https://codeforces.com/problemset/problem/1951/B
 
 
