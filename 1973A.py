@@ -29,7 +29,6 @@ while tc:
     tc-=1
 
 
-# https://codeforces.com/problemset/problem/2008/D
 # https://codeforces.com/problemset/problem/2004/C
 # https://codeforces.com/problemset/problem/1995/B1
 # https://codeforces.com/problemset/problem/1994/B
