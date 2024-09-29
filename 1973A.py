@@ -5,8 +5,6 @@ Give Time to Time , It can hill everything.
 *******************************"""
 
 
-
-
 tc = int(input())
 
 
@@ -27,7 +25,7 @@ while tc:
     tc-=1
 
 
-# https://codeforces.com/problemset/problem/2004/C
+
 # https://codeforces.com/problemset/problem/1995/B1
 # https://codeforces.com/problemset/problem/1994/B
 # https://codeforces.com/problemset/problem/1993/B
