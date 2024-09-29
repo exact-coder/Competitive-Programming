@@ -7,8 +7,6 @@ Give Time to Time , It can hill everything.
 
 
 
-import math
-
 tc = int(input())
 
 
