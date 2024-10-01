@@ -11,16 +11,16 @@ tc = int(input())
 while tc:
     n,k= map(int,input().split())
     n_l = list(map(int,input().split()))
-    n_list = sorted(n_l)
+    n_list = sorted(n_l,reverse=True)
     alice = 0
     bob = 0
     turn = 0
     
-    for i in range(n - 1, -1, -1):
+    for i in range(n):
         if turn == 0:
             alice += n_list[i]
         else:
-            extra = n_list[i + 1] - n_list[i] if i < n - 1 else 0
+            extra = n_list[i - 1] - n_list[i]
             if extra <= k:
                 n_list[i] += extra
                 k -= extra
@@ -30,10 +30,8 @@ while tc:
             bob += n_list[i]
             
         turn ^= 1
-    
     print(abs(alice - bob))
     
-
     tc-=1
 
 
