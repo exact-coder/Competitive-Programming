@@ -22,7 +22,6 @@ while tc:
 
 
 
-# https://codeforces.com/problemset/problem/1984/B
 # https://codeforces.com/problemset/problem/1982/C
 # https://codeforces.com/problemset/problem/1979/C
 # https://codeforces.com/problemset/problem/1977/B
