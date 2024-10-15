@@ -12,32 +12,25 @@ tc = int(input())
 
 while tc:
     n,l,r = map(int,input().split())
-    v = list(map(int,input().split()))
+    a = list(map(int,input().split()))
     
+    total = 0
+    output = 0
     
-    i = 0
-    j = 0
-    sum_ = 0
-    ans = 0
-    
-    while j != (n + 1):
-        if l <= sum_ <= r:
-            ans += 1
-            sum_ = 0
-            i = j
-        elif sum_ < l:
-            sum_ += v[j]
-            j += 1
-        else:
-            sum_ -= v[i]
-            i += 1
-    
-    print("ans : ",ans)
+    for i in range(n):
+        total+=a[i]
+        if a[i] > r:
+            total =0
+        elif a[i] >= l and a[i] <= r:
+            output+=1
+            total=0
+        elif total >= l and total <= r:
+            output+=1
+            total=0
+        
+    print(output)
 
     tc-=1
-
-
-
 
 
 
