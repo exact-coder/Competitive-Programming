@@ -6,7 +6,6 @@ Give Time to Time , It can hill everything.
 
 
 
-
 tc = int(input())
 
 
