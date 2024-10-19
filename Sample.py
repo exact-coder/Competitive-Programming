@@ -9,10 +9,8 @@ tc = int(input())
 
 
 while tc:
-    p1,p2,p3 = map(int,input().split())
-
-
-
+    n = int(input())
+    n_l = map(int,input().split())
 
 
     tc-=1
@@ -22,7 +20,6 @@ while tc:
 
 
 
-# https://codeforces.com/problemset/problem/1979/C
 # https://codeforces.com/problemset/problem/1977/B
 # https://codeforces.com/problemset/problem/1976/B
 # https://codeforces.com/problemset/problem/1975/C
