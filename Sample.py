@@ -20,7 +20,6 @@ while tc:
 
 
 
-# https://codeforces.com/problemset/problem/1977/B
 # https://codeforces.com/problemset/problem/1976/B
 # https://codeforces.com/problemset/problem/1975/C
 # https://codeforces.com/problemset/problem/1958/A
