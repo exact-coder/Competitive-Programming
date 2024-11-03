@@ -7,16 +7,26 @@ int32_t main(){
     //     freopen("output.txt", "r", stdout);
     // #endif
 
-    char ch;
-    cout<< "Enter Charracter : ";
-    cin>>ch;
+    int outter,inner;
+    cout<<"Lenght of Outter loop: ";
+    cin>>outter;
+    // cout<<"Lenght of Inner loop: ";
+    // cin>>inner;
 
-    if(ch >= 'a' && ch <= 'z'){
-        cout<<"LOWERCASE"<<endl;
-    }else if(ch >= 65 and ch<=90){
-        cout<<"UPPERCASE"<<endl;
-    }else{
-        cout<<"NOT a character";
+    char ch ='A';
+    for (int i = 0; i < outter; i++){
+        for(int j =0; j<outter-i-1;j++){
+            cout<< " ";
+            
+        }
+        for(int j=0; j<i+1;j++){
+            cout<<j;
+        }
+        for(int j=i; j>0;j--){
+            cout<<j;
+        }
+        cout<<endl;
     }
+    
 }
 // g++ learn.cpp && ./a.exe
