@@ -4,14 +4,15 @@ Problem: https://codeforces.com/problemset/problem/1976/B
 Give Time to Time , It can hill everything.
 *******************************"""
 
-
 tc = int(input())
-
+# 1
+# 2
+# 1 3
 
 while tc:
     n = int(input())
-    a = map(int,input().split())
-    b = map(int,input().split())
+    a = list(map(int,input().split()))
+    b = list(map(int,input().split()))
 
     tot = 1
     for i in range(n):
