@@ -1,6 +1,6 @@
 """ ******************************
 Username: JahidHasan90
-Problem: https://codeforces.com/problemset/problem/1976/B
+Problem: https://codeforces.com/problemset/problem/1957/B
 Give Time to Time , It can hill everything.
 *******************************"""
 
@@ -18,9 +18,4 @@ while tc:
 
 
 
-
-
-
-# https://codeforces.com/problemset/problem/1954/C
-# https://codeforces.com/problemset/problem/1951/B
 
