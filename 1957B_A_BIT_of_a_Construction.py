@@ -9,9 +9,25 @@ tc = int(input())
 
 
 while tc:
-    n = int(input())
-    n_l = map(int,input().split())
+    n, k = map(int,input().split())
+    mx = -1
+    st = 0
+    for i in range(31):
+        if (k & (1 << i)):
+            mx = i
+            st += 1
 
+    if n == 1 or mx + 1 == st:
+        print(k, end=" ")
+        print("0 " * (n - 1), end="")
+        print()
+    else:
+        val = (1 << mx) - 1
+        extra = k - val
+
+        print(val, extra, end=" ")
+        print("0 " * (n - 2), end="")
+        print()
 
     tc-=1
 
