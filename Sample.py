@@ -21,6 +21,5 @@ while tc:
 
 
 
-# https://codeforces.com/problemset/problem/1954/C
 # https://codeforces.com/problemset/problem/1951/B
 
